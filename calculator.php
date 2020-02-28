@@ -26,7 +26,7 @@
         $num1 = $_POST["First"] ?? null;
         $num2 = $_POST["Second"] ?? null;
         $chooseOperator = $_POST["calcu"] ?? null;
-
+        $total = 0;
         switch ($chooseOperator) {
 
             case  "Add":
@@ -49,8 +49,8 @@
                 $total = $num1 % $num2;
                 break;
         }
-        ?>
-        <?php echo $total ?>
+
+        echo $total ?>
 
         <label>
             <input type="submit" value="Add" name="calcu">
