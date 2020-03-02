@@ -28,23 +28,18 @@
         $chooseOperator = $_POST["calcu"] ?? null;
         $total = 0;
         switch ($chooseOperator) {
-
             case "Add":
                 $total = $num1 + $num2;
                 break;
-
             case "Subtract":
                 $total = $num1 - $num2;
                 break;
-
             case "Multiply":
                 $total = $num1 * $num2;
                 break;
-
             case "Divide":
                 $total = $num1 / $num2;
                 break;
-
             case "Modulo":
                 $total = $num1 % $num2;
                 break;
