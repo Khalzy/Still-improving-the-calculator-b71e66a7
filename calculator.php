@@ -29,23 +29,23 @@
         $total = 0;
         switch ($chooseOperator) {
 
-            case  "Add":
+            case "Add":
                 $total = $num1 + $num2;
                 break;
 
-            case  "Subtract":
+            case "Subtract":
                 $total = $num1 - $num2;
                 break;
 
-            case  "Multiply":
+            case "Multiply":
                 $total = $num1 * $num2;
                 break;
 
-            case  "Divide":
+            case "Divide":
                 $total = $num1 / $num2;
                 break;
 
-            case  "Modulo":
+            case "Modulo":
                 $total = $num1 % $num2;
                 break;
         }
